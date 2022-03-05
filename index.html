@@ -17,12 +17,29 @@
 <body>
   <nav class="navbar">
     <div class="max-width">
-      <div class="logo"><a href="#">I<span>Discover.</span></a></div>
+      <div class="logo"><a href="index.html">I<span>Discover.</span></a></div>
       <ul class='menu'>
           <li><a href="#">Home</a></li>
           <li><a href="team.html">Cluster Two</a></li>
           <li><a href="explore.html">Quiz</a></li>
-      </ul>     
+          <div class="dropdown2">
+            <li><a href="#">Explore</a></li>
+            <i class="fa fa-caret-down"></i>
+            <div class="dropdown-content2">
+                <a href="#">COPERNICAN</a>
+                <a href="#">DARWINIAN</a>
+                <a href="#">FREUDIAN</a>
+                <a href="#">INFORMATION AGE</a>
+                <a href="#">MESO-AMERICA</a>
+                <a href="#">ASIAN</a>
+                <a href="#">MIDDLE EAST</a>
+                <a href="#">AFRICAN</a>
+              </div>
+        </div>
+      </ul>
+    </div>
+</div>
+        
        <div class="menu-btn">
           <i class="fas fa-bars"></i>
         </div> 
@@ -35,7 +52,21 @@
                 
                 <div class="text-2">Intellectual Discovery</div>
                 <div class="text-3">Learn About <span class="typing"></span></div>
-                <a href="explore.html">Explore</a>   
+                <div class="dropdown">
+                    <a href="#">Explore</a>  
+                    <i class="fa fa-caret-down"></i>
+                    <div class="dropdown-content">
+                        <a href="#">COPERNICAN</a>
+                        <a href="#">DARWINIAN</a>
+                        <a href="#">FREUDIAN</a>
+                        <a href="#">INFORMATION AGE</a>
+                        <a href="#">MESO-AMERICA</a>
+                        <a href="#">ASIAN</a>
+                        <a href="#">MIDDLE EAST</a>
+                        <a href="#">AFRICAN</a>
+                      </div>
+                </div>
+                   
             </div>
         </div>
 
@@ -87,11 +118,13 @@
  <script src="script.js"></script>
  </body>
  <script>
+     
 var typed = new Typed(".typing",{
 	strings: ["Freudian", "Information Age", "Meso-America", "Asian", "Middle East", "African"],
 	typeSpeed: 100,
 	backSpeed: 60,
 	loop: true
-})
+});
+
  </script>
 </html>
