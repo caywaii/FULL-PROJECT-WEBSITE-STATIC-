@@ -38,13 +38,13 @@
 });
 
 
-//Animation typing
-var typed = new Typed(".typing",{
-	strings: ["Freudian", "Information Age", "Meso-America", "Asian", "Middle East", "African"],
-	typeSpeed: 100,
-	backSpeed: 60,
-	loop: true
-})
+// //Animation typing
+// var typed = new Typed(".typing",{
+// 	strings: ["Freudian", "Information Age", "Meso-America", "Asian", "Middle East", "African"],
+// 	typeSpeed: 100,
+// 	backSpeed: 60,
+// 	loop: true
+// })
 
 //Vid
 //Vid
