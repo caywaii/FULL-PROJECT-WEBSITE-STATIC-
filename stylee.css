@@ -1,0 +1,334 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Sora:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;900&family=Montserrat:wght@600&family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+ .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 30px 0;
+    background: #eeba2b;  
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50%;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  text-decoration: none;
+}
+.navbar .logo a span{
+    color: #eeba2b;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  text-decoration: none;
+}
+.navbar .menu li a:hover{
+    color: #eeba2b;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+
+  /* EXPLORE BG IMAGES */
+   /*body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Roboto";
+    list-style: none;
+    box-sizing: border-box;
+    background: #000;
+  } */
+
+  .screen{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Hahmlet";
+    list-style: none;
+    box-sizing: border-box;
+    background: #000;
+  }
+
+  section {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  nav {
+    position: fixed;
+    z-index: 100;
+    height: 8vh;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    color:#f2f1ec;
+    margin-left: 3em;
+  }
+
+  .bg img {
+    width: 110vw;
+    height: 110vh;
+    filter: brightness(0.2);
+  }
+  
+  .plane {
+    position: absolute !important;
+    left: 10vw !important;
+    top: 20vh !important;
+ 
+  }
+  
+  .plane img {
+    width: 40%;
+    filter: brightness(1.5);
+  }
+  
+  .text h1 {
+    font-family: "Hahmlet" !important;
+    font-size: 4vw;
+    color: #fff;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 35vh;
+    left: 32vw;
+    
+  }
+
+  .logoName{
+    color:#eeba2b;
+    text-shadow: 0 0 3px #000, 0 0 5px #F4A460;
+  }
+  .logoNameTwo{
+    color:#fff;
+    text-shadow: 0 0 3px #073242, 0 0 5px #fff;
+    
+  }
+  
+  .logo img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 34vw;
+    top: 25vh;
+    z-index: 1;
+    filter: brightness(0.7);
+  }
+  
+  .city {
+    width:200vh;
+    left: -30px !important;
+    bottom: -50px !important;
+    top: unset !important;
+  }
+  
+  .city img {
+    width: 110%;
+    z-index: 2;
+    left: -20px;
+    top: 20vh !important;
+    filter: brightness(0.6);
+  }
+
+  @media only screen and (max-width: 480px) {
+    .city {
+      width: 100%;
+    }
+  }
+
+  
+/* END OF SECTION ONE OR HOMEPAGE*/
+
+/* SECTION TWO */
+
+/* START OF SECTION */
+
+.sectiontwo {
+  background-color:#0E2A34;
+}
+
+/* APPLY TO ALL */
+ul {
+padding-left: 3em;
+}
+
+h1, h2, p {
+margin: 0 0 .8em 0;
+}
+
+h2{
+font-size: 200%;
+color:#f2f1ec;
+}
+
+li{
+font-size: 150%;
+color:#f2f1ec;
+}
+
+/* CONTAINER FOR SECTION 2-4 */
+.container {
+max-width: 10000px;
+margin: 0 auto;
+display: grid;
+margin-top: 10vh;
+grid-template-columns: 1.4fr 2fr;
+grid-gap: 5px;
+margin-top: 10vh
+}
+
+.header {
+font-family: "Lora";
+font-size: 3em;
+text-shadow: 0 0 3px #eeba2b, 0 0 5px #eeba2b;
+text-align: center;
+grid-column-start: 1;
+grid-column-end: -1;
+}
+
+
+
+.container > * {
+background-color: #4682B4; 
+color: #EDDA74;
+border-radius: 5px;
+padding: 16px;
+font-family: "Hahmlet";
+}
+
+.footer {
+text-align: center;
+grid-column-start: 1;
+grid-column-end: -1;
+}
+
+@media (max-width: 10px) {
+.container {
+  grid-template-columns: none;
+}
+}
+
+/* CARDS/BUTTONS */
+
+.card {
+background-color: #073242;
+color: white;
+padding: 1rem;
+height: 5rem;
+text-align: center;
+font-size: 100%;
+border-radius: 15px;
+}
+
+.cards {
+max-width: 1200px;
+margin: 0;
+
+display: grid;
+grid-gap: 2rem;
+align-content: end;
+}
+
+
+@media (min-width: 500px) {
+.cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+@media (min-width: 900px) {
+.cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/*BUTTONS*/
+
+a.button{
+display:flex;
+padding:0.10em 2em;
+margin:0 0.3em 0.3em 0;
+border-radius:0.15em;
+box-sizing: border-box;
+width: 80%;
+height: 70%;
+table-layout: fixed;
+border-collapse: collapse;
+box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+text-align:center;
+position: relative;
+
+/* text decoration */
+text-decoration:none;
+font-family:"Archivo";
+text-transform:uppercase;
+font-weight:400;
+font-size: 15px;
+color:#000;
+background-color: #EDDA74;
+}
+
+a.button:hover {background-color: #eeba2b;}
+
+a.button:active {
+  background-color: #f2f1ec;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a.button:active{
+top:0.1em;
+left:0.1em;
+}
+
+@media all and (max-width:500em){
+a.button{
+display:block;
+margin: 0.4em auto;
+}
+}
+
+/* SECTION THREE */
+.sectionfour {
+  width: 100%;
+  height: 100vh;
+  position: center;
+  background-color:#0E2A34;}
+
+

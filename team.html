@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styleee.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#">I<span>Discover.</span></a></div>
+      <ul class='menu'>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Cluster Two</a></li>
+          <li><a href="explore.html">Explore</a></li>
+      </ul>     
+       <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div> 
+    </div>
+  </nav>
+  <div class="container">
+    <div class="gallery">
+      <img src="Images/prof2.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+  
+      <img src="Images/prof3.jpg" alt="" width="100%" height="auto" class="gallery-img" />		
+      <img src="Images/prof4.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof5.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/Santos, Nichole Joyce G. (1).jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof1.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+  
+      <img src="Images/prof6.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof7.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof8.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof9.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+ 
+      <img src="Images/prof11.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof10.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof13.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof14.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof15.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof16.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof17.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof18.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof19.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/jas.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/IGNACIO.png" alt="" width="100%" height="auto" class="gallery-img" />
+      <img src="Images/prof12.png" alt="" width="100%" height="auto" class="gallery-img" />
+
+    </div> 
+  </div>
+  
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+<script>
+  $(document).ready(function () {
+  $(".gallery-img").click(function(){
+    var t = $(this).attr("src");
+    $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+    $("#myModal").modal();
+  });
+});
+</script>
+</html>
