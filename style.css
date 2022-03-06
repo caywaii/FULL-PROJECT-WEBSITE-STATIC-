@@ -15,67 +15,6 @@ section {
 	padding: 400px 0;
 }
 
-.max-width
-{
-	max-width: 1300px;
-	padding: 0 80px;
-	margin: auto;
-}
-
-                 /* navbar styling */
-.navbar{
-	position: fixed;
-	width: 100%;
-	z-index: 999;
-	padding: 30px 0;
-	font-family: 'Ubuntu', sans-serif;
-	transition: all 0.3s ease;
-}
-.navbar.sticky{
-	padding: 30px 0;
-	background: #eeba2b; 
-}
-.navbar .max-width{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.navbar .logo a{
-	color: #fff;
-	font-size: 35px;
-	font-weight: 600;
-}
-.navbar .logo a span{
-	color: #eeba2b;
-	transition: all 0.3s ease;
-}
-.navbar.sticky .logo a span{
-	color: #fff;
-}
-.navbar .menu li{
-	list-style: none;
-	display: inline-block;
-}
-.navbar .menu li a{
-	color: #fff;
-	font-size: 18px;
-	font-weight: 500;
-	margin-left: 25px;
-	transition: color 0.3s ease;
-}
-.navbar .menu li a:hover{
-	color: #eeba2b;
-}
-.navbar.sticky .menu li a:hover{
-	color: #fff;
-}
-
-.menu-btn{
-	color: #fff;
-	font-size: 23px;
-	cursor: pointer;
-	display: none;
-}
 
                 /* Home Section styling*/
 .home{
@@ -420,53 +359,6 @@ h3
 	min-height: 500px;
 	font-family: 'Ubuntu', sans-serif;
 }
-/* dropdown */
-.dropdown {
-	float: left;
-	overflow: hidden;
-  }
-  
-  .dropdown {
-	font-size: 16px;  
-	border: none;
-	outline: none;
-	color: white;
-	padding: 14px 16px;
-	background-color: inherit;
-	font-family: inherit;
-	margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-	background-color: #073247;
-
-  }
-  
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: null;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
-  
-  .dropdown-content a {
-	float: none;
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-	background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-	display: block;
-  }
 
   /* nav */
   .dropdown2 {
